@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<script>
+var obj = {"name":"yangjiao","age":23}
+obj.getName=function()
+{
+  alert("name:"+this.name)
+}
+
+var getName = obj.getName.bind(obj)
+
+document.write(getName())
+</script>
+
+</body>
+</html>

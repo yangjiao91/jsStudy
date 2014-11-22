@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div id="div1">
+  <p id="p1">the first paragraph!</p>
+  <p id="p2">the second paragraph!</p>
+  <button onclick="addnode()">add node</button>
+  <button onclick="removenode()">remove node</button>
+</div>
+
+<script>
+function addnode()
+{
+  var para=document.createElement("p")
+  var node=document.createTextNode("the new paragraph")
+  para.appendChild(node)
+
+  var element=document.getElementById("p1")
+  element.appendChild(para)
+ }
+
+function removenode()
+{
+  var child=document.getElementById("p1")
+  child.parentNode.removeChild(child)
+}
+
+</script>
+</body>
+</html>

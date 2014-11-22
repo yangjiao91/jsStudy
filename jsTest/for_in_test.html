@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p>点击</p>
+  <button onclick="myFunction()">点击这里</button>
+  <p id="demo"></p>
+<script>
+function myFunction()
+{
+  var x,txt="";
+  var persion={fname:"Bill",lname:"Gates",age:"57"};
+  for (x in persion)
+    {
+      txt = txt + persion[x];
+    }
+  // document.write(txt);
+  document.getElementById("demo").innerHTML=txt;
+}
+</script>
+
+</body>
+</html>

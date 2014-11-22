@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body onload="checkCookies()" onunload="alert("closed")">
+  <script>
+  function checkCookies()
+  {
+    // Navigator 对象包含有关浏览器的信息。
+    if (navigator.cookieEnabled==true)
+      {
+        alert("cookie is used.");
+      }
+    else
+      {
+        alert("cookid is not used.");
+      }
+  }
+  </script>
+
+</body>
+</html>
