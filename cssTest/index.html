@@ -1,6 +1,6 @@
 <html>
 <style type="text/css">
-	strong {
+strong {
      color: red;
      }
 
@@ -17,6 +17,15 @@ h2 strong {
 	color: #f60;
 	background: #666;
 	}
+
+[title]{color :blue;}
+
+[title=W3School]{color :green;}
+
+[name~=hello ]{color: red ;}
+
+[lang|=en]{ color:red; }
+
 </style>
 
  <body>   
@@ -25,6 +34,22 @@ h2 strong {
 <h2>The strongly emphasized word in this subhead is <strong>blue</strong>.</h2>
 
 <li class="fancy"> fancy </li>
+
+<!-- 为带有 title 属性的所有元素设置样式 -->
+<h1 title="">1. hello</h1>
+<h1 title="hello">2. hello</h1>
+
+<!-- 为 title="W3School" 的所有元素设置样式： -->
+<h1 title="W3School">1. hello</h1>
+<h1 title="hello">2. hello</h1>
+
+<!-- 为包含指定值的 title 属性的所有元素设置样式。适用于由空格分隔的属性值 -->
+<h1 name="hello world">1. Hello world</h1>
+<h1 name="world">2. Hello world </h1>
+
+<!-- 为带有包含指定值的 lang 属性的所有元素设置样式。适用于由连字符分隔的属性值 -->
+<p lang="ja">Hello!</p>
+<p lang="en-us">Hi!</p>
 
 <body>
 
