@@ -20,6 +20,10 @@ body
 	background-attachment: fixed;  /*scroll*/
 }
 
+a:link {
+	background-image:url('../../image/css_test.jpg');
+	border-style: outset;
+}
 p.p1 {
 	text-indent: 1em;  /*所有元素的第一行缩进*/
 	/*padding-left: 5em;*/

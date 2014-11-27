@@ -1,0 +1,30 @@
+table{
+	border: 1px solid red ;
+	border-collapse: separate;
+	border-spacing: 2px 3px ;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: automatic;
+
+}
+
+/*border-collapse 属性设置是否将表格边框折叠为单一边框：*/
+td{
+	border-collapse: collapse;
+	width: 10px;
+	height: 10px;
+	/*text-align 属性设置水平对齐方式，比如左对齐、右对齐或者居中：*/
+	text-align: bottom;
+    /*vertical-align 属性设置垂直对齐方式，比如顶部对齐、底部对齐或居中对齐：*/
+	vertical-align: bottom;
+	/*表格中内容与边框的距离*/
+	padding: 15px;
+}
+
+caption
+{
+	caption-side:bottom
+}
+
+
+

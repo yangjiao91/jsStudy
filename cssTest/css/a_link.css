@@ -1,0 +1,13 @@
+/* 未被访问的链接 */
+a:link{color: red; }
+/* 已被访问的链接 */
+a:visited{color: green;}
+/* 鼠标指针移动到链接上 */
+a:hover{color: blue;}
+/* 正在被点击的链接 */
+a:active{color: black
+
+
+a:hover 必须位于 a:link 和 a:visited 之后
+a:active 必须位于 a:hover 之后
+

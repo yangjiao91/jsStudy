@@ -1,0 +1,12 @@
+ol {
+	list-style-type: lower-roman;
+	list-style-image: url("../../image/css_test.jpg");
+	list-style-position: inside;
+}
+ul {
+	list-style-type: square;
+}
+
+ol.order{
+	list-style:square inside url("../../image/css_test.jpg");
+}

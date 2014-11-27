@@ -1,0 +1,8 @@
+*{
+	outline-color: green;
+	outline-style: dashed;
+	outline-width: 2px;
+}
+.p3{
+	outline: red dotted thick;
+}
